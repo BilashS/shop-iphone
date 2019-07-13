@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 0px;
+}
+
+.number_phone {
+    margin-top: 35px;
+    margin-left: 700px;
+    font-size: 18px;
+}
+
+.search {
+    margin-top: 50px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.back_photo {
+    width: 100%;
+    height: 500px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.store {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.container__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.iphone {
+    padding-bottom: 3%;
+}
+
+.iphone img{
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.info {
+    text-align: center;
+    font-size: 20px;
+}
+
+.price{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    text-align: center;
+    padding-right: 20px;
+}
+
+
+
+
